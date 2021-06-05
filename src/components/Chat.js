@@ -5,7 +5,7 @@ import ChatMessage from './ChatMessage'
 import db from '../firebase'
 import {useParams} from 'react-router-dom'
 import firebase from 'firebase'
-import SelectInput from '@material-ui/core/Select/SelectInput';
+
 
 function Chat({user}) {
 
