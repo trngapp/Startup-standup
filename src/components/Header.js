@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import HelpIcon from '@material-ui/icons/Help';
+
 
 function Header({user,signOut})
 {
@@ -14,7 +14,7 @@ function Header({user,signOut})
 
                     </Search>
                 </SearchContainer>
-                <HelpIcon/>
+             
 
             </Main>
             <UserContainer>
