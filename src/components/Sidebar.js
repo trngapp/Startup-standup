@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import {sidebarItems} from '../data/SidebarData'
 import db from '../firebase'
 import {useHistory} from 'react-router-dom'
 function Sidebar(props) {
