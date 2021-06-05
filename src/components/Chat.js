@@ -1,6 +1,5 @@
 import React,{useEffect,useState}  from 'react'
 import styled from 'styled-components'
-import InfoOutlinedIcon from '@material-ui/icons/InfoOutlined';
 import ChatInput from './ChatInput';
 import ChatMessage from './ChatMessage'
 import db from '../firebase'
@@ -97,7 +96,7 @@ getMessages();
     Details
     </div>
 
-    <InfoOutlinedIcon/>
+
 
 
     </ChannelDetail>
