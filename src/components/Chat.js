@@ -5,7 +5,7 @@ import ChatMessage from './ChatMessage'
 import db from '../firebase'
 import {useParams} from 'react-router-dom'
 import firebase from 'firebase'
-import SelectInput from '@material-ui/core/Select/SelectInput';
+
 
 function Chat({user}) {
 
@@ -96,7 +96,11 @@ getMessages();
     Details
     </div>
 
+<<<<<<< HEAD
 
+=======
+   
+>>>>>>> f059c64aee6e77c7f2207f5069981c9b4737a253
 
 
     </ChannelDetail>

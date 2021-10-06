@@ -1,21 +1,20 @@
 import React from 'react'
 import styled from 'styled-components'
-import AccessTimeIcon from '@material-ui/icons/AccessTime';
-import HelpIcon from '@material-ui/icons/Help';
+
 
 function Header({user,signOut})
 {
     return(
         <Container>
             <Main>
-                <AccessTimeIcon/>
+              //yahi acess
                 <SearchContainer>
                     <Search>
                         <input type="text" placeholder="Search..."/>
 
                     </Search>
                 </SearchContainer>
-                <HelpIcon/>
+             
 
             </Main>
             <UserContainer>

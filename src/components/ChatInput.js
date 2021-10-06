@@ -1,6 +1,5 @@
 import React ,{useState} from 'react'
 import styled from 'styled-components'
-import SendIcon from '@material-ui/icons/Send';
 function ChatInput({sendMessage}) {
 
     const [input,setInput]=useState("");
@@ -23,7 +22,7 @@ type="submit"
 onClick={send} >
     <Send/>
 
-<SendIcon/>
+
 </SendButton>
 </form>
 

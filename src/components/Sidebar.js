@@ -1,8 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import AddCircleOutlineIcon from '@material-ui/icons/AddCircleOutline';
-import AddCircleRoundedIcon from '@material-ui/icons/AddCircleRounded';
-import {sidebarItems} from '../data/SidebarData'
 import db from '../firebase'
 import {useHistory} from 'react-router-dom'
 function Sidebar(props) {
@@ -32,7 +29,6 @@ if(id)
         Tarang
         </Name>
         <NewMessage>
-<AddCircleOutlineIcon/>
         </NewMessage>
 </Workspace>
 <MainChannel>
@@ -51,7 +47,7 @@ if(id)
 <div>
     Channels
 </div>
-<AddCircleRoundedIcon onClick={addchannel}/>
+
 
         </NewChannel>
         <ChannelList>
